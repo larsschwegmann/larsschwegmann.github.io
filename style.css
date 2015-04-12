@@ -19,17 +19,19 @@ body {
 
 #heading {
   padding-right: 15px;
+  padding-left: 15px;
 }
 
 div.container {
   background: #FFF;
   padding-right: 0;
+  padding-left: 0;
   height: 100%;
   max-height: 100%;
 }
 
 div.left {
-  padding-right: 0px;
+  padding: 0px;
 }
 
 div.right {
@@ -89,7 +91,7 @@ a.social:hover {
 ul.contact {
   /*padding-top:20px;*/
   padding-right: 15px;
-  padding-left:0;
+  padding-left:15px;
   font-size: 1.4em;
 }
 
@@ -190,26 +192,27 @@ ul.posts li {
 
   div.container {
     height: auto;
+    padding: 0;
   }
 
   div.right {
     border: none;
     height: auto;
     overflow: none;
-    padding-left: 15px;
+    padding: 0;
   }
 
   div.left {
-    padding-right: 15px;
+    padding: 0;
   }
 
-  ul.cv {
+  /*ul.cv {
     padding-left:35px;
   }
 
   h2 {
     padding-left:0px;
-  }
+  }*/
 }
 
 @media(max-width:992px){
@@ -217,7 +220,7 @@ ul.posts li {
     border: none;
     height: auto;
     overflow: none;
-    padding-left: 15px;
+    padding: 0;
   }
 
   body {
@@ -230,23 +233,20 @@ ul.posts li {
 
   div.container {
     height: auto;
+    padding: 0;
   }
 
   div.left {
-    padding-right: 15px;
+    padding: 0;
   }
 
-  ul.cv {
+  /*ul.cv {
     padding-left:35px;
   }
 
   h2 {
     padding-left:0px;
-  }
-
-  div.container {
-    padding-right: 15px;
-  }
+  }*/
 }
 
 @media(max-width:1200px){
