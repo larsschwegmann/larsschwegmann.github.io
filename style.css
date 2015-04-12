@@ -36,7 +36,7 @@ div.right {
   border-left: 1px solid #d5d5d5;
   padding-left: 0;
   padding-right:0;
-  overflow: auto;
+  overflow-y: auto;
   height: 100%;
 }
 
@@ -215,8 +215,9 @@ ul.posts li {
 @media(max-width:992px){
   div.right {
     border: none;
+    height: auto;
+    overflow: none;
     padding-left: 15px;
-    padding-right: 15px;
   }
 
   body {
