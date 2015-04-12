@@ -184,6 +184,14 @@ ul.posts li {
     text-align:center;
   }
 
+  body {
+    height: auto;
+  }
+
+  div.container {
+    height: auto;
+  }
+
   div.right {
     border: none;
     height: auto;
@@ -209,6 +217,18 @@ ul.posts li {
     border: none;
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  body {
+    height: auto;
+  }
+
+  html {
+    height: auto;
+  }
+
+  div.container {
+    height: auto;
   }
 
   div.left {
